@@ -1,0 +1,21 @@
+tasks:
+  - name: initialize
+    init: |
+
+
+      # python3 insert_twitter_card.py
+      # error : sh: 1: vue-cli-service: not found
+      # patch : https://ysko909.github.io/posts/fix-vue-cli-service-command-not-found-error/
+      rm -rf node_modules package-lock.json
+      npm install
+      npm run serve
+      
+  - name: npm run
+    init: |
+      # npm run build
+    openMode: split-right      
+
+# Ports to expose on workspace startup
+ports:
+  - port: 8080
+    onOpen: open-preview
