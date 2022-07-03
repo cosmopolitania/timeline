@@ -9,9 +9,7 @@
                 </v-col>
                 <v-col>
                     <strong class='contents-title'>完全帰国</strong>
-                    <div class="text-caption">
-                        帰国後のTimeLineは別途作成 <br>
-                    </div>
+                    
                 </v-col>
             </v-row>
     </v-timeline-item>
