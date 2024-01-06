@@ -46,7 +46,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   - "overrides":　のところで dedupeされ、意図したバージョンのみが使用されるよう記述する
   - `rm -rf node_module package-lock.json` からの `npm install` でクリーンインストール時の再現性が担保されたことを確認する
   - 各地での使用状況を確認するコマンドは `npm ls <module>`
-  1. webpack起因のvulnerabilitiesへの対応. 
-  - [参考](https://github.com/vuejs/vue-cli/issues/5919)
-  - vue-cliからのwebpack-dev-serverからのバージョンup対応をした
-  - それに伴いgitpodと噛み合う形でvue.config.jsを修正した
+1. webpack起因のvulnerabilitiesへの対応. 
+- [参考](https://github.com/vuejs/vue-cli/issues/5919)
+- vue-cliからのwebpack-dev-serverからのバージョンup対応をした
+- それに伴いgitpodと噛み合う形でvue.config.jsを修正した
