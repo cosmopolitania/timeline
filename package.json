@@ -15,6 +15,7 @@
     "core-js": "^3.6.5",
     "glob-parent": "^5.1.2",
     "json5": "^2.2.3",
+    "nth-check": "^2.1.1",
     "vue": "^2.6.13",
     "vue-head": "^2.2.0",
     "vue-meta": "^2.4.0",
@@ -36,7 +37,8 @@
   },
   "overrides": {
     "glob-parent": "$glob-parent",
-    "json5": "$json5"
+    "json5": "$json5",
+    "nth-check": "$nth-check"
   },
   "eslintConfig": {
     "root": true,
