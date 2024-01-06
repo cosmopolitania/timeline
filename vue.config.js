@@ -20,8 +20,12 @@ module.exports = {
   },
   // Invalid Host Headerエラー対応
   // https://thebaker.hatenablog.com/entry/2018/10/09/153411
+  // さらにwepback v5 での対応 for gitpod を重ねる
+  // https://github.com/gitpod-io/gitpod/issues/11170
   devServer: {
-    host: '0.0.0.0',
-    disableHostCheck: true
+    allowedHosts: 'all',
+    client: {
+      webSocketURL: 'auto://0.0.0.0:0/ws'
+      }
   }
 }
