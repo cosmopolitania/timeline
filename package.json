@@ -13,6 +13,8 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/vue-fontawesome": "^2.0.2",
     "core-js": "^3.6.5",
+    "glob-parent": "^5.1.2",
+    "json5": "^2.2.3",
     "vue": "^2.6.13",
     "vue-head": "^2.2.0",
     "vue-meta": "^2.4.0",
@@ -31,6 +33,10 @@
     "vue-cli-plugin-vuetify": "~2.4.1",
     "vue-template-compiler": "^2.6.11",
     "vuetify-loader": "^1.7.0"
+  },
+  "overrides": {
+    "glob-parent": "$glob-parent",
+    "json5": "$json5"
   },
   "eslintConfig": {
     "root": true,
