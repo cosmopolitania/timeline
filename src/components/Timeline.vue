@@ -1,7 +1,7 @@
 <template>
     <v-app>
     <v-app-bar color="#208ea3" dark app class='title'>
-      <v-toolbar-title justify='center'>タイムライン</v-toolbar-title>
+      <v-toolbar-title justify='center'>Eri Nagayama's タイムライン</v-toolbar-title>
       <v-tooltip bottom>
           <template v-slot:activator="{ on, attrs }">
               <v-btn icon href='https://github.com/cosmopolitania' v-bind="attrs" v-on="on">
