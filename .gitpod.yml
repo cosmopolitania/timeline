@@ -7,6 +7,7 @@ tasks:
       # error : sh: 1: vue-cli-service: not found
       # patch : https://ysko909.github.io/posts/fix-vue-cli-service-command-not-found-error/
       rm -rf node_modules package-lock.json
+      nvm install 16 # nodeのバージョンを固定
       npm install
       npm run serve
       
